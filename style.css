@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+}
+
+/* navbar s */
+
+nav img {
+    height: 60px;
+}
+
+nav {
+    background-color: rgb(251, 249, 253);
+    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav span {
+    display: flex;
+    width: 65%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-items {
+    width: 100%;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.nav-icons {
+    list-style: none;
+    width: 8%;
+    font-size: 20px;
+}
+/* navbar e */
+
+.bi-list {
+    font-size: 20px;
+    display: none;
+}
+
+.responsive-icons {
+    list-style: none;
+    display: none;
+}
+
+/* starting phone 1 */
+
+.starting-phone {
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/HeroBanner_desktop1920-4.4.jpg.thumb.jpg");
+}
+
+.starting-phone p{
+    margin-top: 350px;
+}
+/* text section start */
+
+.text-section {
+    padding: 10px 100px;
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.text-section p {
+    padding-top: 350px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.text-section h3 {
+    padding-left: 10px;
+    color:rgb(114, 112, 112);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text-section h4 {
+    font-size: 20px;
+
+}
+
+.text-section h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+span button{
+    padding: 10px 80px;
+}
+
+span button a{
+    text-decoration: none;
+    color: white;
+}
+
+.black-btn {
+    background-color: black;
+    
+
+}
+.btn-w{
+    color: black;
+}
+/* trending section  */
+
+.trending-section{
+    min-height: 90vh;
+    display: flex;
+    padding: 50px;
+}
+
+ .trending-btn-section{
+    margin-top: 10px;
+ }
+ .trending-text{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+
+
+ .trending-text h1{
+font-size: 44px;
+font-weight: 400;
+}
+
+.trending-text h3{
+font-size: 24px;
+font-weight: 300;
+}
+
+.trending-text p{
+    font-size: 14px;
+}
+
+#trending-price {
+    margin-top: 20px;
+}
+
+
+.trending-image{
+    width: 65%;
+    background-image: url(./images/udon-pc-2.7.jpg.thumb.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+/* cart-section */
+
+
+.card-section{
+    width: 100%;
+    height: 100vh;
+    /* padding: 50px; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: rgb(17, 0, 255);
+}
+
+
+
+.product-card{
+    background-color: aqua;
+    height: 350px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-text h1{
+    font-size: 34px;
+    font-weight: 400;
+}
+
+
+.dark-btn{
+background-color: black;
+color: white;
+width: 5px;
+height: 40px;
+margin-right: 10px;
+}
+
+.light-btn{
+    background-color:white;
+color: black;
+width: 5px;
+height: 40px;
+}
+
+.btn-section{
+    display: flex;
+    align-items: center;
+  
+}
+
+
+.hot-product-section{
+    padding: 50px;
+}
+
+.categories{
+margin-top: 20px;
+list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+    
+.categories li{
+    margin: 10px;
+
+}
+
+.categories li:hover{
+    border-bottom: 1px solid red;
+}
+
+.categories-section h3{
+    font-size: 24px;
+    font-weight: 4000;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    display: flex;
+    
+}
+
+.categories-section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+.hot-products{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .hot-product-cart{
+    background-color: aliceblue;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+  }
+
+.buy-btn{
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .hot-product-cart img{
+    height: 250px;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .hot-product-cart img:hover{
+    transform: scale(120%);
+  }
+  
+  .hot-product-cart h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+
+  .hot-product-cart h5{
+    color: red;
+  }
+
+  .dark-btn{
+    width: 250px;
+    padding: 10px 10px;
+    
+    justify-content: space-between;
+
+  }
+  /* .hot-product-cart p{
+    font-size: 15px;
+  } */
+
+  .hot-products-cart{
+    width: 250px;
+    height:100vh;
+    
+   
+  }
+  .hot-products-cart img {
+    width: 250px;
+  }
+
+  .buy-btn1{
+    margin-top: 27px;
+   
+  }
+
+ .buy-btnl{
+    margin-top: 38px;
+   
+ }
